@@ -538,7 +538,7 @@ body{
              font-size:15px;
          }
          h1{
-             font-size: 22px;
+             font-size:22px;
          }
          button{
              margin-top:5px;
@@ -582,21 +582,57 @@ body{
          }
         }
    }
-   @media screen and (max-width: 549px){
+   @media screen and (max-width:493px){
     .row{      
      
          .info-text{
            
+         p{
+             font-size:12px;
+         }
+         h1{
+             font-size: 18px;
+         }
+         button{
+             margin-top:5px;
+             font-size: 9px;
+             padding: 8px 12px; 
+         }
+         }
+         .info-img{
+             width: 50%;
+             img{
+                 height: 100%;
+                 width: 100%;
+             }
+         }
+        }
+   }
+   @media screen and (max-width:455px){
+    .row{      
+     
+         .info-text{
+           
+         p{
+             font-size:12px;
+         }
          h1{
              font-size: 16px;
          }
          button{
              margin-top:5px;
-             font-size: 8px;
+             font-size: 9px;
              padding: 8px 12px; 
          }
          }
-    
+         .info-img{
+             display: flex;
+             top: -30px;
+             img{
+                 height: 120%;
+                 width: 110%;
+             }
+         }
         }
    }
    @media screen and (max-width: 417px){
@@ -617,8 +653,10 @@ body{
          }
          }
          .info-img{
+            display: flex;
+               top: -25px;
             img{
-               
+              
                 height: 120%;
                 width: 120%;
                 
